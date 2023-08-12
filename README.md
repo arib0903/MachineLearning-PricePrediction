@@ -21,7 +21,7 @@ This repository contains the implementation of a machine learning project focuse
 - **Part 6:** Model tuning via stacking using Stacking Regressor.
 - **Part 7:** Evaluation and analysis of model results using Root Mean Squared Error and R^2
 
-# Analysis of Results
+## Analysis of Results
 
 ### Comparing Stacking and Random Forest
 
