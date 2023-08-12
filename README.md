@@ -23,14 +23,14 @@ This repository contains the implementation of a machine learning project focuse
 
 # Analysis of Results
 
-## Comparing Stacking and Random Forest
+Comparing Stacking and Random Forest
 
 - **Stacking Model's RMSE:** 89.22
 - **Random Forest Model's RMSE:** 89.70
 
 The stacking model marginally outperformed the Random Forest model, with a slightly lower RMSE.
 
-## Random Forest vs. Gradient Boosting in R² Metrics
+Random Forest vs. Gradient Boosting in R² Metrics
 
 - **Random Forest (RF) R²:** 0.618
 - **Gradient Boosting (GBDT) R²:** 0.580
