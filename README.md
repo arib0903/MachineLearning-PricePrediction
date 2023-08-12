@@ -1,6 +1,6 @@
 # Machine Learning Project: Airbnb Price Prediction
 
-This repository contains the implementation of a machine learning project focused on analyzing an Airbnb dataset. The project follows a structured plan to preprocess data, implement models, and evaluate their performance.
+This repository contains the implementation of a machine learning project focused on analyzing an Airbnb dataset to predict the prices of Airbnb listings. The project follows a structured plan to preprocess data, implement models, and evaluate their performance.
 
 ## Technologies Used
 
@@ -19,5 +19,19 @@ This repository contains the implementation of a machine learning project focuse
 - **Part 4:** One-hot encoding for categorical features.
 - **Part 5:** Model implementation: Random Forest and Gradient Boosting.
 - **Part 6:** Model tuning via stacking using Stacking Regressor.
-- **Part 7:** Evaluation and analysis of model results.
-- **Part 8:** Conclusion and reflection on lessons learned.
+- **Part 7:** Evaluation and analysis of model results using Root Mean Squared Error and R^2
+
+# Analysis of Results
+
+## Comparing Stacking and Random Forest
+
+- **Stacking Model's RMSE:** 89.22
+- **Random Forest Model's RMSE:** 89.70
+
+The stacking model marginally outperformed the Random Forest model, with a slightly lower RMSE.
+
+## Random Forest vs. Gradient Boosting in R² Metrics
+
+- **Random Forest (RF) R²:** 0.618
+- **Gradient Boosting (GBDT) R²:** 0.580
+
