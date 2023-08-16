@@ -34,6 +34,7 @@ The stacking model marginally outperformed the Random Forest model, with a sligh
 
 - **Random Forest (RF) R²:** 0.618
 - **Gradient Boosting (GBDT) R²:** 0.580
+- The Random Forest model fit the data 6.55% better than that of GBDT
   
 The R² provides insight into how well the model fits the data
 
