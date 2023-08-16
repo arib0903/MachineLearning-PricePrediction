@@ -23,10 +23,13 @@ This repository contains the implementation of a machine learning project focuse
 
 ## Analysis of Results
 
-### Comparing Stacking and Random Forest
+### Comparing Stacking vs Random Forest and Gradient Boosting
 
 - **Stacking Model's RMSE:** 89.22
 - **Random Forest Model's RMSE:** 89.70
+- **Gradient Boosting Model's RMSE:** 94.12
+- Stacking ensemble **reduced error rate (RMSE) by 5.2%** vs Gradient Boosting.
+- Stacking ensemble **reduced error rate (RMSE) by 0.5%** vs Random Forest.
 
 The stacking model marginally outperformed the Random Forest model, with a slightly lower RMSE.
 
@@ -34,7 +37,7 @@ The stacking model marginally outperformed the Random Forest model, with a sligh
 
 - **Random Forest (RF) R²:** 0.618
 - **Gradient Boosting (GBDT) R²:** 0.580
-- The Random Forest model fit the data 6.55% better than that of GBDT
+- The Random Forest model fit the data **6.55%** better than that of GBDT
   
 The R² provides insight into how well the model fits the data
 
